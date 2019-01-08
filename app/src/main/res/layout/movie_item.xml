@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<!--    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.LinearLayoutCompat>-->
+
+    <ImageView
+        android:id="@+id/movie_item_poster_image"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/placeholder"/>
+
+    <TextView
+        android:id="@+id/movie_title"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:ellipsize="end"
+        android:text="Dummy movie tittle"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="12dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorText"/>
+
+</LinearLayout>
